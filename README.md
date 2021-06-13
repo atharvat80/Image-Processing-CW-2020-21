@@ -9,7 +9,7 @@ Light leak filter is found in `filters.py` as the function `problem1`
 - `blendCf` : Blending coefficient, float in range 0 to 1, default is 0.3
 - `mode` : Type of light leak, string, `simple` or `rainbow`, default is `simple`
 
-# Problem 2, 
+# Problem 2
 Pencil/Charcoal effect is found in `filters.py` as the function `problem2`
 - `img` : Input image as a numpy array
 - `blendCf` : Blending coefficient, float in range 0 to 1, default is 0.3
@@ -17,7 +17,7 @@ Pencil/Charcoal effect is found in `filters.py` as the function `problem2`
 - `mode` : Type of light leak, string, `simple` or `colour`, default is `simple`
 - `hex` : Hex value of the desired colour for the output sketch in colour mode, default is `ffa600`
 
-# Problem 3, 
+# Problem 3
 Smoothing and beautifying filter is found in `filters.py` as the function `problem3`
 
 - `img` : Input image as a numpy array
