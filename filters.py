@@ -1,6 +1,6 @@
 """
-Author      : htrf88
-Description : Filters
+Author      : Atharva Tidke
+Description : Image processing coursework
 """
 
 import cv2
@@ -59,7 +59,6 @@ def getMask(rows, cols, beamWidth=40, rainbow=0):
 
 
 """
-
 Problem 1 Parameters
 
 img     : Input image as a numpy array
@@ -155,7 +154,6 @@ def texture(width, height, size, blur, dir='l'):
 
 
 """
-
 Problem 2 Parameters
 
 img         : Input image as a numpy array
@@ -290,7 +288,6 @@ def CLAHE(img, clipLim=0.8, tileSize=5):
 
 
 """
-
 Problem 3 Parameters
 
 img     : Input image as a numpy array
@@ -369,7 +366,6 @@ def swirl(img, strength, radius, flag="swirl"):
 
 
 """
-
 Problem 4 Parameters
 
 img         : Input image as a numpy array
